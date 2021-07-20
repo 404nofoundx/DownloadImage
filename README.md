@@ -2,7 +2,7 @@
 
 ## 1. 简介
 
-输入一组关键词（如中国地图、全国地图、祖国地图等），指定所需图片个数，在常见搜索引擎中检索，记录图片url地址，并将图片保存在指定目录下。
+输入一组关键词，指定所需图片个数，在常见搜索引擎中检索，记录图片url地址，并将图片保存在指定目录下。
 + 百度图片：https://image.baidu.com/
 + 360搜图：https://image.so.com/
 + 微软：https://cn.bing.com/images/trending?FORM=ILPTRD）
