@@ -252,7 +252,7 @@ def crawl_image_urls(keywords, engine="baidu", max_number=10000,use_proxy=False)
         image_urls = i360_get_image_url(keywords, max_number=max_number, use_proxy=use_proxy)
     else:   # Baidu
         print('目前只支持baidu、360、bing')
-    if image_urls>=0:
+    if len(image_urls)>=0:
         print("目标抓取:{0}条 已抓取:{1}条".format(max_number, len(image_urls)))
     else:
         print("抓取异常".format(max_number, len(image_urls)))
